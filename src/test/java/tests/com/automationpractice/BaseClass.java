@@ -31,9 +31,9 @@ public class BaseClass
 		driver=new ChromeDriver();
 		
 		homePage     		=   new HomePage(driver);
-		authenticationPage  =   new AuthenticationPage(driver);
-		createAccountPage   =   new CreateAccountPage(driver);
-		myAccountPage       =   new MyAccountPage(driver);
+		authenticationPage  	=   new AuthenticationPage(driver);
+		createAccountPage   	=   new CreateAccountPage(driver);
+		myAccountPage       	=   new MyAccountPage(driver);
 		searchPage   		=   new SearchPage(driver);
 		cartPage   		=   	new CartPage(driver);
 		orderPage   		=   new OrderPage(driver);
