@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="NewsLetter(failed)">
+    <classes>
+      <class name="tests.com.automationpractice.PageFactoryTest_NewsLetter">
+        <methods>
+          <include name="verify_newsletter_for_Unregistered_email"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.com.automationpractice.PageFactoryTest_NewsLetter -->
+    </classes>
+  </test> <!-- NewsLetter(failed) -->
+  <test thread-count="5" name="Registration(failed)">
+    <classes>
+      <class name="tests.com.automationpractice.PageFactoryTest_Registration">
+        <methods>
+          <include name="tc307_verify_blank_spaces_submission_of_create_account_form_fields_except_postal_code_and_state_fields"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="tc304_verify_create_account_without_filling_optional_field"/>
+        </methods>
+      </class> <!-- tests.com.automationpractice.PageFactoryTest_Registration -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+  <test thread-count="5" name="Add To Cart(failed)">
+    <classes>
+      <class name="tests.com.automationpractice.PageFactoryTest_Add_To_Cart">
+        <methods>
+          <include name="verify_add_any_product_to_cart_from_homepage"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.com.automationpractice.PageFactoryTest_Add_To_Cart -->
+    </classes>
+  </test> <!-- Add To Cart(failed) -->
+  <test thread-count="5" name="Purchasing(failed)">
+    <classes>
+      <class name="tests.com.automationpractice.PageFactoryTest_Purchasing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_add_any_product_to_cart_from_homepage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- tests.com.automationpractice.PageFactoryTest_Purchasing -->
+    </classes>
+  </test> <!-- Purchasing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
