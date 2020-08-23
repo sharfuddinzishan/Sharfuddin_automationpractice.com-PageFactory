@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test  name="UI Element">
+    <classes>
+      <class name="tests.com.automationpractice.PageFactoryTest_HomePage_UI_Element"/>
+    </classes>
+  </test>
+  
+  <test  name="NewsLetter">
+    <classes>
+    	<class name="tests.com.automationpractice.PageFactoryTest_NewsLetter"/>
+    </classes>
+  </test>
+  
+  <test  name="Registration">
+    <classes>
+      	<class name="tests.com.automationpractice.PageFactoryTest_Registration"/>
+   </classes>
+   
+  </test>
+  
+  <test  name="Login">
+    <classes>
+      <class name="tests.com.automationpractice.PageFactoryTest_Login"/>
+    </classes>
+  </test>
+  
+  <test  name="Add To Cart">
+    <classes>
+      <class name="tests.com.automationpractice.PageFactoryTest_Add_To_Cart"/>
+    </classes>
+  </test>
+  
+  <test  name="Purchasing">
+    <classes>
+      <class name="tests.com.automationpractice.PageFactoryTest_Purchasing"/>
+    </classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->
