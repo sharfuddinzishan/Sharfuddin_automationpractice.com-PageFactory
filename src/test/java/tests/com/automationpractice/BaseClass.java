@@ -35,7 +35,7 @@ public class BaseClass
 		createAccountPage   	=   new CreateAccountPage(driver);
 		myAccountPage       	=   new MyAccountPage(driver);
 		searchPage   		=   new SearchPage(driver);
-		cartPage   		=   	new CartPage(driver);
+		cartPage   		=   new CartPage(driver);
 		orderPage   		=   new OrderPage(driver);
 		
 		String baseUrl = "http://automationpractice.com/index.php";
